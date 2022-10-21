@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Image } from "@chakra-ui/react";
 import React from "react";
 
 function Banner() {
@@ -7,7 +8,7 @@ function Banner() {
       <div className="container">
         <div className="banner-wrapper">
           <div className="banner-img">
-            <img src="https://avatars.githubusercontent.com/u/59563905?v=4" alt="" />
+            <Image w="100%" boxSize={400} src="/projects/surendra.png" alt="surendra" />
           </div>
           <div className="banner-content">
             <h6>Hello, I'm Surendra Kumar</h6>

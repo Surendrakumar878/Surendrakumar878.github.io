@@ -7,10 +7,21 @@ function Projects() {
     {
       title: "Project 1",
       img: "/projects/1.png",
-      gLink: "https://github.com/Surendrakumar878",
-      lLink: "https://github.com/Surendrakumar878",
+      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
+      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
     },
-   
+    {
+      title: "Project 2",
+      img: "/projects/2.png",
+      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
+      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
+    },
+    {
+      title: "Project 3",
+      img: "/projects/3.png",
+      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
+      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
+    },
   ]);
   return (
     <section className="projects" id="projects">
