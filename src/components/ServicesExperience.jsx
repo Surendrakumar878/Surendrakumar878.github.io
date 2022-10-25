@@ -24,7 +24,7 @@ function ServicesExperience() {
   return (
     <section className="services-experience">
       <div className="container">
-        <div className="services" id="services">
+        {/* <div className="services" id="services">
           {services.map((service, i) => (
             <div
               key={i}
@@ -36,7 +36,7 @@ function ServicesExperience() {
               <button className="btn">Know More</button>
             </div>
           ))}
-        </div>
+        </div> */}
         <div className="experiences" id="experiences">
           <div className="experience">
             {/* <h3>12</h3> */}

@@ -8,7 +8,7 @@ function Banner() {
       <div className="container">
         <div className="banner-wrapper">
           <div className="banner-img">
-            <Image w="100%" boxSize={400} src="/projects/surendra.png" alt="surendra" />
+            <Image w="272px" h='372px' src="/projects/surendra.png" alt="surendra" />
           </div>
           <div className="banner-content">
             <h6>Hello, I'm Surendra Kumar</h6>

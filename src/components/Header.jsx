@@ -29,10 +29,10 @@ function Header() {
             Home
           </a>
           <a className="link" href="#services">
-            Sevices
+          About
           </a>
           <a className="link" href="#experiences">
-            Experience
+          Skills    
           </a>
           <a className="link" href="#projects">
             Projects
@@ -43,18 +43,18 @@ function Header() {
         </span>
       </div>
       <div className={`mobile-links ${active ? "active" : ""}`}>
-        <a className="link" onClick={() => setActive(!active)} href="#banner">
+        <a className="link" onClick={() => setActive(!active)} href="#">
           Home
         </a>
-        <a className="link" onClick={() => setActive(!active)} href="#services">
-          Sevices
+        <a className="link" onClick={() => setActive(!active)} href="#">
+          About
         </a>
         <a
           className="link"
           onClick={() => setActive(!active)}
-          href="#experiences"
+          href="#"
         >
-          Experience
+          Skill
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#projects">
           Projects
