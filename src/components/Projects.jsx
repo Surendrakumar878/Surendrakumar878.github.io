@@ -5,22 +5,25 @@ import { useState } from "react";
 function Projects() {
   const [projects] = useState([
     {
-      title: "Project 1",
+      title: "Nordstrom Rack clone",
       img: "/projects/1.png",
       gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
       lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
+      decs:"Free shipping. Free returns. All the time. Shop online for shoes, clothing, jewelry, dresses, makeup and more from top brands. Make returns in store or by mail."
     },
     {
-      title: "Project 2",
+      title: "Cricbuzz Clone",
       img: "/projects/2.png",
-      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
-      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
+      gLink: "https://github.com/VijaySingh8650/cricbuzz/",
+      lLink: "https://guileless-rabanadas-3377d4.netlify.app/",
+      decs:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features, news, articles and live coverage of cricket matches including videos, text commentary, player stats and team rankings."
     },
     {
-      title: "Project 3",
+      title: "BellaVitaOrganic Clone",
       img: "/projects/3.png",
-      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
-      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
+      gLink: "https://github.com/Shimbhu77/taboo-mine-9522",
+      lLink: "https://elegant-lily-59df11.netlify.app/",
+      decs:"An online eCommerce website sell the natural and ayurvedic cosmetics and skin care products to customer in Online A collaborative project built by a team of 4 Member executed in 4 days."
     },
   ]);
   return (
@@ -55,10 +58,8 @@ function Projects() {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                ea nobis aut deserunt. Reprehenderit numquam harum facilis
-                beatae praesentium pariatur eligendi non. Explicabo, cupiditate
-                odit vero quo iste numquam obcaecati.
+              
+{project.decs}
               </p>
             </div>
           ))}
