@@ -90,7 +90,7 @@ const Conctact = () => {
               <div className="text">Message me</div>
   
               <form
-                action="https://getform.io/f/745bc11f-2be2-4d1e-a96c-25092d058df7"
+                action="https://getform.io/f/09d980e3-a29a-4b95-a4b6-11863aeb8d8e"
                 method="POST"
               >
                 <div className="fields">
