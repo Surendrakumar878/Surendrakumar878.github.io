@@ -85,7 +85,7 @@ header .header-inner {
     transition: 0.3s;
 }
 
-.header-inner .link:hover {
+f .header-inner .link:hover {
     color: var(--red-text);
 }
 
@@ -98,9 +98,9 @@ header .mobile-links {
 }
 
 
-/* =========== Banner */
+/* =========== About */
 
-.banner .banner-wrapper {
+.About .About-wrapper {
     height: calc(100vh - 120px);
     display: flex;
     justify-content: space-between;
@@ -108,21 +108,21 @@ header .mobile-links {
     padding: 10px 0px;
 }
 
-.banner .banner-img {
+.About .About-img {
     position: relative;
     flex: 0 0 50%;
     max-width: 50%;
     width: 100%;
 }
 
-.banner .banner-content h6 {
+.About .About-content h6 {
     font-size: 18px;
     line-height: 26px;
     color: var(--red-text);
     font-weight: 600;
 }
 
-.banner .banner-content h3 {
+.About .About-content h3 {
     font-size: 40px;
     line-height: 50px;
     color: var(--light);
@@ -130,13 +130,13 @@ header .mobile-links {
     font-weight: 900;
 }
 
-.banner .banner-content p {
+.About .About-content p {
     font-size: 16px;
     line-height: 26px;
     color: var(--light);
 }
 
-.banner .banner-content .btn {
+.About .About-content .btn {
     max-width: 150px;
     height: 50px;
     background: var(--red);
@@ -147,19 +147,19 @@ header .mobile-links {
     font-weight: 600;
 }
 
-.banner .banner-content .btn:hover {
+.About .About-content .btn:hover {
     background: transparent;
 }
 
 
-/* =========== Banner */
+/* =========== About */
 
-.services-experience {
+.skills {
     padding: 100px 0px;
     position: relative;
 }
 
-.services-experience::before {
+.skills::before {
     content: "";
     position: absolute;
     left: 0;
@@ -172,7 +172,7 @@ header .mobile-links {
 }
 
 .services,
-.experiences,
+.skills-1,
 .portfolios {
     display: flex;
     flex-wrap: wrap;
@@ -232,11 +232,11 @@ header .mobile-links {
     transform: translateX(10px);
 }
 
-.experiences {
+.skills-1 {
     margin-top: 100px;
 }
 
-.experience {
+.skill {
     flex: 0 0 calc(33.33% - 10px);
     max-width: calc(33.33% - 10px);
     width: 100%;
@@ -246,14 +246,14 @@ header .mobile-links {
     align-items: center;
 }
 
-.experience h3 {
+.skill h3 {
     color: var(--red-text);
     font-size: 80px;
     line-height: 90px;
     font-weight: 900;
 }
 
-.experience p {
+.skill p {
     font-size: 24px;
     line-height: 30px;
     font-weight: 900;
@@ -391,12 +391,22 @@ header .mobile-links {
     color: #fff;
 }
 
+.title {
+    text-align: center;
+    margin: 5vw;
+}
+
 .contact .title::after {
-    content: "get in touch";
+    content: " get in touch";
 }
 
 .contact .contact-content .column {
     width: calc(50% - 30px);
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .contact .contact-content .text {
@@ -433,7 +443,7 @@ header .mobile-links {
 }
 
 .contact .contact-content .info .sub-title {
-    color: #333;
+    color: rgb(247, 240, 240);
 }
 
 .contact .right form .fields {
@@ -460,7 +470,7 @@ header .mobile-links {
 .contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(190, 7, 7);
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -504,6 +514,9 @@ header .mobile-links {
     color: crimson;
     background: none;
 }
+
+
+/* foooter */
 
 footer {
     background: var(--dark-light);
@@ -568,7 +581,7 @@ footer p i {
 /* ============= Media Queries */
 
 @media (max-width: 969px) {
-    .services-experience::before {
+    .skills::before {
         width: 40%;
     }
     .services .service {
@@ -588,6 +601,11 @@ footer p i {
 @media (max-width: 767px) {
     header .links {
         display: none;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     header .menu {
         display: block;
@@ -621,12 +639,12 @@ footer p i {
     header .mobile-links.active a:hover {
         border-color: var(--red-text);
     }
-    .banner .banner-wrapper {
+    .About .About-wrapper {
         flex-wrap: wrap;
         height: auto;
         padding: 50px 0px;
     }
-    .banner .banner-img {
+    .About .About-img {
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 20px;
@@ -634,18 +652,18 @@ footer p i {
 }
 
 @media (max-width: 660px) {
-    .banner .banner-content h3 {
+    .About .About-content h3 {
         font-size: 30px;
         line-height: 40px;
     }
-    .services-experience::before {
+    .skills::before {
         width: 0;
     }
     .services .service {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .experience,
+    .skill,
     .portfolios {
         flex: 0 0 100%;
         max-width: 100%;
@@ -696,5 +714,133 @@ footer p i {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 20px;
+    }
+}
+
+
+/* githun */
+
+#git {
+    margin-right: 110px;
+    padding-top: 20px;
+}
+
+#git>a>img {
+    width: 30px;
+}
+
+#git>a>img:hover {
+    width: 35px;
+    color: blue;
+    background-color: blue;
+}
+
+#live {
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+#live>a {
+    color: #fff;
+}
+
+#live>a:hover {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#github-stats {
+    padding: 100px 10px 10px 10px;
+    /* border: 1px solid; */
+    margin-top: -10%;
+    margin-bottom: -100px;
+    /* height: 400px; */
+}
+
+.github-stats-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-top: 50px;
+    grid-gap: 40px;
+}
+
+.github-stat {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.github-stat img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    padding: 10px 30px;
+}
+
+.layer h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.github-st .title::after {
+    content: "see my work";
+}
+
+.github-stat:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 690px) {
+    .github-stat {
+        width: 300px;
+        font-size: 8px;
+    }
+    .github-stat {
+        width: 100%;
+        font-size: 8px;
+    }
+    .container {
+        text-align: center;
+    }
+    .cont-box-1>img {
+        width: 45px;
+        height: 45px;
+    }
+    .github-stat>img {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .github-stats-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        margin-top: 50px;
+        grid-gap: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .github-stat {
+        width: 100%;
+        font-size: 8px;
+    }
+    .github-stat>img {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .github-stats-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        margin-top: 50px;
+        grid-gap: 40px;
     }
 }

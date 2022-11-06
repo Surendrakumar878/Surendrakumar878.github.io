@@ -16,8 +16,8 @@ function Header() {
   const stickNavbar = () => {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
-      console.log(windowHeight)
-      windowHeight > 200 ? setStickyClass("sticky") : setStickyClass("");
+    
+      windowHeight > 100? setStickyClass("sticky") : setStickyClass("");
     }
   };
 console.log(active)
@@ -29,17 +29,17 @@ console.log(active)
           <a className="link" href="/">
             Home
           </a>
-          <a className="link" href="#banner">
+          <a className="link" href="#about">
           About
           </a>
          
-          <a className="link" href="#experiences">
+          <a className="link" href="#skills">
           Skills    
           </a>
           <a className="link" href="#projects">
             Projects
           </a>
-          <a className="link" href="#conctact">
+          <a className="link" href="#contact">
           Conctact
 
           </a>
@@ -57,22 +57,25 @@ console.log(active)
         <a className="link" onClick={() => setActive(!active)} href="/">
           Home
         </a>
-        <a className="link" onClick={() => setActive(!active)} href="#About">
+        <a className="link" onClick={() => setActive(!active)} href="#about">
           About
         </a>
         <a
           className="link"
           onClick={() => setActive(!active)}
-          href="#Skill"
+          href="#skills"
         >
           Skill
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#projects">
           Projects
         </a>
-        <a className="link" onClick={() => setActive(!active)} href="#conctact">
+        <a className="link" onClick={() => setActive(!active)} href="#contact">
         conctact
         </a>
+        <a className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
+          Resume
+          </a>
       </div>
     </header>
   );

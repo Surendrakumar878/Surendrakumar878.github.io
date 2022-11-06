@@ -7,10 +7,10 @@ function Footer() {
       <div className="container">
         <span className="logo">Surendra.</span>
         <div className="links">
-          <a href="#">
+          <a href="https://www.facebook.com/surendrakumar878">
             <i className="fab fa-facebook"></i>
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/@surendrak_marshkole">
             <i className="fab fa-youtube"></i>
           </a>
           <a href="https://twitter.com/Surendr72033426">
