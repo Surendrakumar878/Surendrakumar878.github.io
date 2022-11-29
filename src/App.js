@@ -5,11 +5,14 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Conctact from "./components/Conctact";
 import Github from "./components/Github";
+import Home from "./components/Home/Home";
+
 
 function App() {
   return (
     <div>
       <Header />
+     <Home />
       <About />
       <Skill />
       <Projects />

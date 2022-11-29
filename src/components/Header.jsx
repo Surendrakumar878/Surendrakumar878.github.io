@@ -43,7 +43,7 @@ console.log(active)
           Conctact
 
           </a>
-          <a className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
+          <a target="_blank" className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
           Resume
           </a>
         </div>
