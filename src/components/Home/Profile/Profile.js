@@ -29,7 +29,7 @@ export default function Profile() {
                 </div>
                 <div className="profile-details-name">
                     <span className="primary-text">
-                        Hello I'm <span className='highlighted-text'>Preeti Bildani</span>
+                        Hello I'm <span className='highlighted-text'>Surendra kumar</span>
                     </span>
                 </div>
                 <div className="profile-details-role">
@@ -53,7 +53,8 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className="profile-optins">
-                    <a href="https://drive.google.com/file/d/1n_wtR7GrfwU5w1E3kijo2u4ZDTggBCJs/view?usp=share_link" target="_blank" download="resume.pdf">
+                    <a  href="Surendra_Kumar_Resume.pdf"
+                  download="Surendra_Kumar_Resume.pdf" target="_blank" >
                         <button className='resumeButton'>Get Resume</button>
                     </a>
                 </div>

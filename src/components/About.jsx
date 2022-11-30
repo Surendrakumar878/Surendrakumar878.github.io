@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Image } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import React from "react";
 
 function About() {
@@ -7,9 +7,9 @@ function About() {
     <section className="About" id="about">
       <div className="container">
         <div className="About-wrapper">
-          <div className="About-img">
-            <Image w="272px" h='372px' src="/projects/surendra.jpg" alt="surendra" />
-          </div>
+          <Box className="About-img" w="65%"   >
+            <Image w={"65%"} borderRadius="50%" src="/projects/surendra.jpg" alt="surendra"  />
+          </Box>
           <div className="About-content">
             <h6>Hello, I'm Surendra Kumar</h6>
             <h3>Full Stack Web Developer</h3>

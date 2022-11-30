@@ -1,24 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Image } from "@chakra-ui/react";
 import React from "react";
 import { useState } from "react";
 
 function Projects() {
   const [projects] = useState([
-    {
+    { stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",],
       title: "Nordstrom Rack clone",
       img: "/projects/1.png",
       gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
       lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
       decs:"Free shipping. Free returns. All the time. Shop online for shoes, clothing, jewelry, dresses, makeup and more from top brands. Make returns in store or by mail."
     },
-    {
+    {  stackImg:"https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
       title: "Cricbuzz Clone",
       img: "/projects/2.png",
       gLink: "https://github.com/VijaySingh8650/cricbuzz/",
       lLink: "https://guileless-rabanadas-3377d4.netlify.app/",
       decs:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features, news, articles and live coverage of cricket matches including videos, text commentary, player stats and team rankings."
     },
-    {
+    { stackImg:"https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
       title: "BellaVitaOrganic Clone",
       img: "/projects/3.png",
       gLink: "https://github.com/Shimbhu77/taboo-mine-9522",
@@ -55,12 +56,15 @@ function Projects() {
                   <a href={project.lLink} target="_blank" rel="noreferrer">
                     <i className="fa fa-globe"></i>
                   </a>
+                  
                 </div>
+                
               </div>
               <p>
               
 {project.decs}
               </p>
+              <div><Image width="70px" src={project.stackImg} alt="" /></div>
             </div>
           ))}
         </div>
