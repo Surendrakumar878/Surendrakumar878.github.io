@@ -5,21 +5,35 @@ import { useState } from "react";
 
 function Projects() {
   const [projects] = useState([
-    { stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",],
-      title: "Nordstrom Rack clone",
-      img: "/projects/1.png",
-      gLink: "https://github.com/Surendrakumar878/Masai_Product_Unit2",
-      lLink: "https://unrivaled-tiramisu-dc2e1b.netlify.app/",
-      decs:"Free shipping. Free returns. All the time. Shop online for shoes, clothing, jewelry, dresses, makeup and more from top brands. Make returns in store or by mail."
+    { stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+    ,"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+  "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
+,"https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"],
+      title: " Click&Buy",
+      img: "/projects/homepage.png",
+      gLink: "https://github.com/bArSu45/haloed-ground-8588",
+      lLink: "https://haloed-ground-8588.vercel.app/",
+      decs:"An online eCommerce website Buy Streetwear Collection for Men & Women Online | Click&Buy."
     },
-    {  stackImg:"https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    {  stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+    ],
       title: "Cricbuzz Clone",
       img: "/projects/2.png",
       gLink: "https://github.com/VijaySingh8650/cricbuzz/",
       lLink: "https://guileless-rabanadas-3377d4.netlify.app/",
       decs:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features, news, articles and live coverage of cricket matches including videos, text commentary, player stats and team rankings."
     },
-    { stackImg:"https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+    {stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+    ],
       title: "BellaVitaOrganic Clone",
       img: "/projects/3.png",
       gLink: "https://github.com/Shimbhu77/taboo-mine-9522",
@@ -27,6 +41,7 @@ function Projects() {
       decs:"An online eCommerce website sell the natural and ayurvedic cosmetics and skin care products to customer in Online A collaborative project built by a team of 4 Member executed in 4 days."
     },
   ]);
+  console.log()
   return (
     <section className="projects" id="projects">
       <div className="container">
@@ -64,7 +79,13 @@ function Projects() {
               
 {project.decs}
               </p>
-              <div><Image width="70px" src={project.stackImg} alt="" /></div>
+              {project.stackImg.map((icon)=>(<Image marginRight={8} width="70px" src={icon} alt="" />
+              // <Image width="70px" src={} alt="" />
+              // <Image width="70px" src={} alt="" />
+              // <Image width="70px" src={} alt="" />
+              
+              
+              ))}
             </div>
           ))}
         </div>

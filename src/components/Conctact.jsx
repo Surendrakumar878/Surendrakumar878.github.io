@@ -5,49 +5,7 @@ import React from 'react'
 const Conctact = () => {
   return (
       
-    // <div classNameName="column" id="contact" style={{    marginTop: "103px"}}>
-    //         <div classNameName="text">Message me</div>
-
-
-
-    //         <form action="https://getform.io/f/09d980e3-a29a-4b95-a4b6-11863aeb8d8e" method="POST">
-    //           <div classNameName="fields">
-    //             <div classNameName="field name">
-    //               <input type="text" id="name" placeholder="Name" name="name" required />
-    //             </div>
-    //             <div classNameName="field email">
-    //               <input type="email" id="email" placeholder="Email" name="email" required />
-    //             </div>
-    //           </div>
-    //           <div classNameName="field">
-    //             <input
-    //               type="text"
-    //               id="subject"
-    //               placeholder="Subject"
-    //               name="Subject"
-    //               required
-    //             />
-    //           </div>
-    //           <div classNameName="field textarea">
-    //             <textarea
-    //               cols="30"
-    //               rows="10"
-    //               id="message"
-    //               placeholder="Message.."
-    //               name="message"
-    //               required
-    //             ></textarea>
-    //           </div>
-    //           <div classNameName="button-area">
-    //             <button  type="submit" id="submit">message</button>
-    //           </div>
-    //         </form>
-
-
-
-
-    //       </div>
-        
+            
         <section style={{    marginTop: "103px"}} className="contact" id="contact">
         <div className="max-width">
           <h2 className="title">Contact me</h2>
@@ -89,7 +47,7 @@ const Conctact = () => {
             <div className="column right">
               <div className="text">Message me</div>
   
-              <form
+              <form id='form'
                 action="https://getform.io/f/09d980e3-a29a-4b95-a4b6-11863aeb8d8e"
                 method="POST"
               >

@@ -8,7 +8,7 @@ function About() {
       <div className="container">
         <div className="About-wrapper">
           <Box className="About-img" w="65%"   >
-            <Image w={"65%"} borderRadius="50%" src="/projects/surendra.jpg" alt="surendra"  />
+            <Image w={"45%"} borderRadius="50%" src="/projects/surendra.jpg" alt="surendra"  />
           </Box>
           <div className="About-content">
             <h6>Hello, I'm Surendra Kumar</h6>

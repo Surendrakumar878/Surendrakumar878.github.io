@@ -421,6 +421,7 @@ header .mobile-links {
 .contact-content {
     display: flex;
     justify-content: space-around;
+    padding: 80px;
 }
 
 .contact .contact-content .text {
@@ -449,7 +450,7 @@ header .mobile-links {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: crimson;
+    color: #cd3128;
 }
 
 .contact .contact-content .info .head {
@@ -484,7 +485,7 @@ header .mobile-links {
 .contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
-    border: 1px solid rgb(190, 7, 7);
+    border: 1px solid #cd3128;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -519,13 +520,13 @@ header .mobile-links {
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: crimson;
-    border: 2px solid crimson;
+    background: #cd3128;
+    border: 2px solid #cd3128;
     transition: all 0.3s ease;
 }
 
 .right form .button-area button:hover {
-    color: crimson;
+    color: #cd3128;
     background: none;
 }
 
@@ -805,7 +806,7 @@ footer p i {
 }
 
 .github-st .title::after {
-    content: "see my work";
+    content: "See My Work";
 }
 
 .github-stat:hover img {
@@ -856,6 +857,21 @@ footer p i {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         margin-top: 50px;
         grid-gap: 40px;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .column {
+        width: 100%;
+        margin-left: -111px;
+    }
+    .icons {
+        width: 200%;
+    }
+    #form {
+        width: 178%;
     }
 }
 

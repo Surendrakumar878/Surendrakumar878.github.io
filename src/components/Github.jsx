@@ -1,4 +1,6 @@
+import { Heading } from '@chakra-ui/react'
 import React from 'react'
+import GitHubCalendar from 'react-github-calendar'
 
 const Github = () => {
   return (
@@ -8,7 +10,7 @@ const Github = () => {
 
       <div id="github-stats">
         <div className="container">
-          <h1 className="title">Github Status</h1>
+          <h1 className="title">Github Status </h1>
           <div className="github-stats-list">
             <div className="github-stat">
               <img
@@ -29,14 +31,11 @@ const Github = () => {
               />
             </div>
             <div className="github-stat">
-              <h4 className="mb-0" style={{textAlign:"center", color:"white"}}>
+              <Heading marginBottom={6} className="mb-0" style={{textAlign:"center", color:"white"}}>
                 Surendra Kumar's contribution calendar
-              </h4>
-              <img
-                src="https://ghchart.rshah.org/surendrakumar878"
-                alt="surendra"
-                style={{width:"100%" ,height:"auto", marginTop:"5vh", color:"red"}}
-              />
+              </Heading>
+             
+              <GitHubCalendar username="surendrakumar878" year={new Date().getFullYear()} />
              
             </div>
           </div>

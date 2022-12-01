@@ -26,7 +26,7 @@ console.log(active)
       <div className="header-inner">
         <span className="logo">Surendra.</span>
         <div className="links">
-          <a className="link" href="/">
+          <a className="link" href="#home">
             Home
           </a>
           <a className="link" href="#about">
@@ -54,7 +54,7 @@ console.log(active)
       <div className={`mobile-links ${active ? "active" : ""}`}>
 
 
-        <a className="link" onClick={() => setActive(!active)} href="/">
+        <a className="link" onClick={() => setActive(!active)} href="#home">
           Home
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#about">
