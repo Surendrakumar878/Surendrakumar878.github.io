@@ -1,5 +1,5 @@
 import React from "react";
-// import Typical from 'react-typical';
+import Typical from 'react-typical';
 import "./Profile.css";
 import {
   AiOutlineMail,
@@ -50,7 +50,7 @@ export default function Profile() {
             <span className="primary-text">
               <h1>
                 {" "}
-                {/* <Typical
+                <Typical
                                         loop={Infinity}
                                         steps ={[
                                             "Enthusiastic Dev 🔴",
@@ -60,7 +60,7 @@ export default function Profile() {
                                             "MERN Devloper 🚀",
                                             2000,
                                         ]}
-                                    /> */}{" "}
+                                    />{" "}
               </h1>{" "}
               <span className="profile-role-tagline">
                 Knack of building application with frontend operations.{" "}

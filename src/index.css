@@ -410,6 +410,9 @@ header .mobile-links {
     margin: 5vw;
 }
 
+
+/* contact*/
+
 .contact .title::after {
     content: " get in touch";
 }

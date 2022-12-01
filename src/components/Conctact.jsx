@@ -76,7 +76,7 @@ const Conctact = () => {
                     type="text"
                     id="subject"
                     placeholder="Subject"
-                    name="gender"
+                    name="Subject"
                     required
                   />
                 </div>
