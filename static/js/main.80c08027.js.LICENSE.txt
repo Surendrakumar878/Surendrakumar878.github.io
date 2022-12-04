@@ -1,3 +1,17 @@
+/*!
+       * days <https://github.com/jonschlinkert/days>
+       *
+       * Copyright (c) 2014 Jon Schlinkert, contributors.
+       * Licensed under the MIT license.
+       */
+
+/*!
+       * months <https://github.com/jonschlinkert/months>
+       *
+       * Copyright (c) 2014 Jon Schlinkert, contributors.
+       * Licensed under the MIT license.
+       */
+
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /**
