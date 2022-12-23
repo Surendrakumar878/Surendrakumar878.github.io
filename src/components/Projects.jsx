@@ -27,7 +27,7 @@ function Projects() {
       img: "/projects/2.png",
       gLink: "https://github.com/VijaySingh8650/cricbuzz/",
       lLink: "https://guileless-rabanadas-3377d4.netlify.app/",
-      decs:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features, news, articles and live coverage of cricket matches including videos, text commentary, player stats and team rankings."
+      decs:"For fetching Live Cricket Score from CricBuzz."
     },
     {stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
     "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
@@ -38,7 +38,7 @@ function Projects() {
       img: "/projects/3.png",
       gLink: "https://github.com/Shimbhu77/taboo-mine-9522",
       lLink: "https://elegant-lily-59df11.netlify.app/",
-      decs:"An online eCommerce website sell the natural and ayurvedic cosmetics and skin care products to customer in Online A collaborative project built by a team of 4 Member executed in 4 days."
+      decs:"Buy Bella Vita Organic's Affordable Natural Skincare Products Online to get the best Skin of Your Life."
     },
   ]);
   console.log()

@@ -7,6 +7,7 @@ import {
   AiOutlineInstagram,
   AiOutlineLinkedin,
 } from "react-icons/ai";
+import { Box } from "@chakra-ui/react";
 export default function Profile() {
   return (
     <div className="profile-container">
@@ -48,22 +49,22 @@ export default function Profile() {
           </div>{" "}
           <div className="profile-details-role">
             <span className="primary-text">
-              <h1>
+              <Box m={4} p={4}  fontSize="20px">
                 {" "}
                 <Typical
                                         loop={Infinity}
                                         steps ={[
                                             "Enthusiastic Dev 🔴",
                                             2000,
-                                            "Full Stack Fronted developer 🖥",
+                                            "Full Stack Web Developer 🖥",
                                             2000,
                                             "MERN Devloper 🚀",
                                             2000,
                                         ]}
                                     />{" "}
-              </h1>{" "}
+              </Box>{" "}
               <span className="profile-role-tagline">
-                Knack of building application with frontend operations.{" "}
+                Knack of building application with Full Stack operations.{" "}
               </span>{" "}
             </span>{" "}
           </div>{" "}

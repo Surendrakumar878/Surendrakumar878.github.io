@@ -7,17 +7,16 @@ import Conctact from "./components/Conctact";
 import Github from "./components/Github";
 import Home from "./components/Home/Home";
 
-
 function App() {
   return (
-    <div>
+    <div >
       <Header />
-     <Home />
+      <Home />
       <About />
       <Skill />
       <Projects />
-     <Github />
-      <Conctact/>
+      <Github />
+      <Conctact />
       <Footer />
     </div>
   );
