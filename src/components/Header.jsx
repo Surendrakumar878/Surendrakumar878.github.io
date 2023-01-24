@@ -40,10 +40,12 @@ console.log(active)
             Projects
           </a>
           <a className="link" href="#contact">
-          Conctact
+          Contact
 
           </a>
-          <a target="_blank" className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
+          <a  className="link"  href="Surendra_Kumar_Resume.pdf"
+              download="Surendra_Kumar_Resume.pdf"
+              target="_blank">
           Resume
           </a>
         </div>
@@ -71,9 +73,11 @@ console.log(active)
           Projects
         </a>
         <a className="link" onClick={() => setActive(!active)} href="#contact">
-        conctact
+        contact
         </a>
-        <a className="link" href="https://drive.google.com/file/d/1rdnlLBUJtzV89PklADzML3YjBRPEhQSv/view?usp=sharing">
+        <a className="link"  href="Surendra_Kumar_Resume.pdf"
+              download="Surendra_Kumar_Resume.pdf"
+              target="_blank">
           Resume
           </a>
       </div>

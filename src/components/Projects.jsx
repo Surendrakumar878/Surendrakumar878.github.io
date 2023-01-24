@@ -5,7 +5,42 @@ import { useState } from "react";
 
 function Projects() {
   const [projects] = useState([
-    { stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+ 
+    { 
+      // eslint-disable-next-line no-sparse-arrays
+      stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+    ,"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+  "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
+,"https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"],
+      title: " Wondermart",
+      img: "/projects/home_wondermart.png",
+      gLink: "https://github.com/Surendrakumar878/dear-attack-7758",
+      lLink: "https://wondermart.netlify.app/",
+      decs:"The best online grocery store in India. wondermart is an online supermarket for all your daily needs. Online shopping now made easy with a wide range of groceries and home needs."
+    },
+ 
+    { 
+      // eslint-disable-next-line no-sparse-arrays
+      stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
+    "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"
+    ,"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+  "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
+,"https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"],
+      title: "COOLMART",
+      img: "/projects/home_coolmart.png",
+      gLink: "https://github.com/Surendrakumar878/hissing-love-5128",
+      lLink: "https://coolmartz.netlify.app/",
+      decs:"This project is a web application for E-Commerce mostly focused on the functionality of user and admin sides named Coolmart developed by us. The purpose of building this project is for educational purposes. For more information scroll below. Thank You!."
+    },
+
+    { 
+      // eslint-disable-next-line no-sparse-arrays
+      stackImg:["https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",  
     "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
     "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
     "https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"

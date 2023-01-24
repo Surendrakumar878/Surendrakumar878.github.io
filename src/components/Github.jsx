@@ -38,13 +38,10 @@ const Github = () => {
                 alt="Github Stats"
               />
             </div>
-            <div className="github-stat">
-              <img
-                src="https://activity-graph.herokuapp.com/graph?username=surendrakumar878&bg_color=ffffff&color=000080&line=138808&theme=transparent& point=ff9933&area=true"
-                alt="Github Graph"
-              />
-            </div>
-            <Box className="github-stat" >
+          
+            
+          </div>
+          <Box className="github-stat" style={{paddingLeft: "40px"}} >
               <Heading marginBottom={6} className="mb-0" style={{textAlign:"center", color:"white"}}>
                 Surendra Kumar's contribution calendar
               </Heading>
@@ -65,7 +62,6 @@ const Github = () => {
               </GitHubCalendar>
               
             </Box>
-          </div>
         </div>
       </div>
     </section>
