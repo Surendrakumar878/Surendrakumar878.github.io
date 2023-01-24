@@ -41,7 +41,7 @@ const Github = () => {
           
             
           </div>
-          <Box className="github-stat" style={{paddingLeft: "40px"}} >
+          <Box className="github-stat" style={{paddingLeft: "40px",marginTop:"20px" }} >
               <Heading marginBottom={6} className="mb-0" style={{textAlign:"center", color:"white"}}>
                 Surendra Kumar's contribution calendar
               </Heading>

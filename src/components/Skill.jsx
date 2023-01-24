@@ -59,12 +59,12 @@ function Skill() {
             </div>
             <div className="portfolio">
               {/* <h4>express UI</h4> */}
-              < Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="31%"/>
+              < Image pr="10px"  pl="10px" bg={"white"} src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="31%"/>
             </div>
-            <div className="portfolio">
+            <Box className="portfolio">
               {/* <h4>node UI</h4> */}
-              < Image src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="31%"/>
-            </div>
+              < Image p="10px" bg={"white"} src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="31%"/>
+            </Box>
             <div className="portfolio">
               {/* <h4>node UI</h4> */}
               < Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="31%"/>
